@@ -79,6 +79,7 @@ body {
     transform: scale(0.55);
 }
 
+/* Styling for the clouds */
 .cloud {
     background: white;
     background: linear-gradient(top, white 5%, #f1f1f1 100%);
@@ -113,6 +114,7 @@ body {
     width: 180px;
 }
 
+/* The animation on the clouds, set to trigger on hover (For some reason I couldn't figure out, cloud1 whould not work along the others, which is why it's seperated...) */
 .cloud1:hover .rain, .cloud:hover .rain {
     position: relative;
     display: flex;
